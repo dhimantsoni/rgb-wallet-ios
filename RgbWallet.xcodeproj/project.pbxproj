@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1B92F1912E43B42A00FCFA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B92F17B2E43B42800FCFA98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B92F1822E43B42800FCFA98;
+			remoteInfo = RgbWallet;
+		};
+		1B92F19B2E43B42A00FCFA98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B92F17B2E43B42800FCFA98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B92F1822E43B42800FCFA98;
+			remoteInfo = RgbWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B92F1832E43B42800FCFA98 /* RgbWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RgbWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B92F1902E43B42A00FCFA98 /* RgbWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RgbWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B92F19A2E43B42A00FCFA98 /* RgbWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RgbWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1B92F1852E43B42800FCFA98 /* RgbWallet */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RgbWallet;
+			sourceTree = "<group>";
+		};
+		1B92F1932E43B42A00FCFA98 /* RgbWalletTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RgbWalletTests;
+			sourceTree = "<group>";
+		};
+		1B92F19D2E43B42A00FCFA98 /* RgbWalletUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RgbWalletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B92F1802E43B42800FCFA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B92F18D2E43B42A00FCFA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B92F1972E43B42A00FCFA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B92F17A2E43B42800FCFA98 = {
+			isa = PBXGroup;
+			children = (
+				1B92F1852E43B42800FCFA98 /* RgbWallet */,
+				1B92F1932E43B42A00FCFA98 /* RgbWalletTests */,
+				1B92F19D2E43B42A00FCFA98 /* RgbWalletUITests */,
+				1B92F1842E43B42800FCFA98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B92F1842E43B42800FCFA98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B92F1832E43B42800FCFA98 /* RgbWallet.app */,
+				1B92F1902E43B42A00FCFA98 /* RgbWalletTests.xctest */,
+				1B92F19A2E43B42A00FCFA98 /* RgbWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B92F1822E43B42800FCFA98 /* RgbWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B92F1A42E43B42A00FCFA98 /* Build configuration list for PBXNativeTarget "RgbWallet" */;
+			buildPhases = (
+				1B92F17F2E43B42800FCFA98 /* Sources */,
+				1B92F1802E43B42800FCFA98 /* Frameworks */,
+				1B92F1812E43B42800FCFA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1B92F1852E43B42800FCFA98 /* RgbWallet */,
+			);
+			name = RgbWallet;
+			packageProductDependencies = (
+			);
+			productName = RgbWallet;
+			productReference = 1B92F1832E43B42800FCFA98 /* RgbWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B92F18F2E43B42A00FCFA98 /* RgbWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B92F1A72E43B42A00FCFA98 /* Build configuration list for PBXNativeTarget "RgbWalletTests" */;
+			buildPhases = (
+				1B92F18C2E43B42A00FCFA98 /* Sources */,
+				1B92F18D2E43B42A00FCFA98 /* Frameworks */,
+				1B92F18E2E43B42A00FCFA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B92F1922E43B42A00FCFA98 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1B92F1932E43B42A00FCFA98 /* RgbWalletTests */,
+			);
+			name = RgbWalletTests;
+			packageProductDependencies = (
+			);
+			productName = RgbWalletTests;
+			productReference = 1B92F1902E43B42A00FCFA98 /* RgbWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B92F1992E43B42A00FCFA98 /* RgbWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B92F1AA2E43B42A00FCFA98 /* Build configuration list for PBXNativeTarget "RgbWalletUITests" */;
+			buildPhases = (
+				1B92F1962E43B42A00FCFA98 /* Sources */,
+				1B92F1972E43B42A00FCFA98 /* Frameworks */,
+				1B92F1982E43B42A00FCFA98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B92F19C2E43B42A00FCFA98 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1B92F19D2E43B42A00FCFA98 /* RgbWalletUITests */,
+			);
+			name = RgbWalletUITests;
+			packageProductDependencies = (
+			);
+			productName = RgbWalletUITests;
+			productReference = 1B92F19A2E43B42A00FCFA98 /* RgbWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B92F17B2E43B42800FCFA98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					1B92F1822E43B42800FCFA98 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1B92F18F2E43B42A00FCFA98 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1B92F1822E43B42800FCFA98;
+					};
+					1B92F1992E43B42A00FCFA98 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1B92F1822E43B42800FCFA98;
+					};
+				};
+			};
+			buildConfigurationList = 1B92F17E2E43B42800FCFA98 /* Build configuration list for PBXProject "RgbWallet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B92F17A2E43B42800FCFA98;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1B92F1842E43B42800FCFA98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B92F1822E43B42800FCFA98 /* RgbWallet */,
+				1B92F18F2E43B42A00FCFA98 /* RgbWalletTests */,
+				1B92F1992E43B42A00FCFA98 /* RgbWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B92F1812E43B42800FCFA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B92F18E2E43B42A00FCFA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B92F1982E43B42A00FCFA98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B92F17F2E43B42800FCFA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B92F18C2E43B42A00FCFA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B92F1962E43B42A00FCFA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B92F1922E43B42A00FCFA98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B92F1822E43B42800FCFA98 /* RgbWallet */;
+			targetProxy = 1B92F1912E43B42A00FCFA98 /* PBXContainerItemProxy */;
+		};
+		1B92F19C2E43B42A00FCFA98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B92F1822E43B42800FCFA98 /* RgbWallet */;
+			targetProxy = 1B92F19B2E43B42A00FCFA98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B92F1A22E43B42A00FCFA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X8XD7V3M4Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B92F1A32E43B42A00FCFA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X8XD7V3M4Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B92F1A52E43B42A00FCFA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8XD7V3M4Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhimantsoni.RgbWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B92F1A62E43B42A00FCFA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8XD7V3M4Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhimantsoni.RgbWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B92F1A82E43B42A00FCFA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8XD7V3M4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhimantsoni.RgbWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RgbWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RgbWallet";
+			};
+			name = Debug;
+		};
+		1B92F1A92E43B42A00FCFA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8XD7V3M4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhimantsoni.RgbWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RgbWallet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RgbWallet";
+			};
+			name = Release;
+		};
+		1B92F1AB2E43B42A00FCFA98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8XD7V3M4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhimantsoni.RgbWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RgbWallet;
+			};
+			name = Debug;
+		};
+		1B92F1AC2E43B42A00FCFA98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8XD7V3M4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dhimantsoni.RgbWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RgbWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B92F17E2E43B42800FCFA98 /* Build configuration list for PBXProject "RgbWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B92F1A22E43B42A00FCFA98 /* Debug */,
+				1B92F1A32E43B42A00FCFA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B92F1A42E43B42A00FCFA98 /* Build configuration list for PBXNativeTarget "RgbWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B92F1A52E43B42A00FCFA98 /* Debug */,
+				1B92F1A62E43B42A00FCFA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B92F1A72E43B42A00FCFA98 /* Build configuration list for PBXNativeTarget "RgbWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B92F1A82E43B42A00FCFA98 /* Debug */,
+				1B92F1A92E43B42A00FCFA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B92F1AA2E43B42A00FCFA98 /* Build configuration list for PBXNativeTarget "RgbWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B92F1AB2E43B42A00FCFA98 /* Debug */,
+				1B92F1AC2E43B42A00FCFA98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B92F17B2E43B42800FCFA98 /* Project object */;
+}
