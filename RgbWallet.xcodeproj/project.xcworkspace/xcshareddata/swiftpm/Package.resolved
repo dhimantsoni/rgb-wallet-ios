@@ -1,0 +1,15 @@
+{
+  "originHash" : "9135ea018337085502e9da0b9737c65b311b6c51c4ac5526cc5875397f768c62",
+  "pins" : [
+    {
+      "identity" : "rgb-lib-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RGB-Tools/rgb-lib-swift",
+      "state" : {
+        "revision" : "ed57047ca970c64ee4a5b3fbef4ca3f98d443881",
+        "version" : "0.3.0-beta.2"
+      }
+    }
+  ],
+  "version" : 3
+}

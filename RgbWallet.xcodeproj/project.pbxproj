@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1B961C6E2E451D52002F1363 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1B961C6D2E451D49002F1363 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1B92F1912E43B42A00FCFA98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,10 +27,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1B92F1D32E43CB3700FCFA98 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1B92F1832E43B42800FCFA98 /* RgbWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RgbWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B92F1902E43B42A00FCFA98 /* RgbWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RgbWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B92F19A2E43B42A00FCFA98 /* RgbWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RgbWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B961C6D2E451D49002F1363 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +93,7 @@
 		1B92F17A2E43B42800FCFA98 = {
 			isa = PBXGroup;
 			children = (
+				1B961C6D2E451D49002F1363 /* .gitignore */,
 				1B92F1852E43B42800FCFA98 /* RgbWallet */,
 				1B92F1932E43B42A00FCFA98 /* RgbWalletTests */,
 				1B92F19D2E43B42A00FCFA98 /* RgbWalletUITests */,
@@ -102,6 +121,7 @@
 				1B92F17F2E43B42800FCFA98 /* Sources */,
 				1B92F1802E43B42800FCFA98 /* Frameworks */,
 				1B92F1812E43B42800FCFA98 /* Resources */,
+				1B92F1D32E43CB3700FCFA98 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +215,9 @@
 			);
 			mainGroup = 1B92F17A2E43B42800FCFA98;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1B3A043F2E43CFC000D7FE35 /* XCRemoteSwiftPackageReference "rgb-lib-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1B92F1842E43B42800FCFA98 /* Products */;
 			projectDirPath = "";
@@ -212,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B961C6E2E451D52002F1363 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +582,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B3A043F2E43CFC000D7FE35 /* XCRemoteSwiftPackageReference "rgb-lib-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RGB-Tools/rgb-lib-swift";
+			requirement = {
+				kind = exactVersion;
+				version = "0.3.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1B92F17B2E43B42800FCFA98 /* Project object */;
 }
