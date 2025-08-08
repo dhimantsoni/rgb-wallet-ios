@@ -75,18 +75,27 @@ struct WelcomeView: View {
             }
             }
             Spacer()
-            Text("Create New Wallet")
-                .font(.system(.callout, design: .rounded, weight: .bold))
-                .padding()
-                .frame(maxWidth: .infinity)
-                .clipped()
-                .foregroundStyle(.white)
-                .background(.blue)
-                .mask { RoundedRectangle(cornerRadius: 15, style: .continuous) }
-                .padding(.bottom, 20)
-            Text("Already Have a Wallet")
-                .font(.system(.body, design: .rounded, weight: .bold))
-                .foregroundStyle(.blue)
+            Button(action: {
+                print("Hello, World")
+            }){
+                Text("Create New Wallet")
+            }
+            .font(.system(.callout, design: .rounded, weight: .bold))
+            .padding()
+            .frame(maxWidth: .infinity)
+            .clipped()
+            .foregroundStyle(.white)
+            .background(.blue)
+            .mask { RoundedRectangle(cornerRadius: 15, style: .continuous) }
+            .padding(.bottom, 20)
+            Button(action: {
+                print("Hello, World")
+            }){
+                Text("Already have a Wallet")
+            }
+            .font(.system(.body, design: .rounded, weight: .bold))
+            .foregroundStyle(.blue)
+            .padding(.bottom, 20)
 
         }
         .frame(maxWidth: .infinity)
@@ -95,32 +104,6 @@ struct WelcomeView: View {
         .padding(.bottom, 0)
         .padding(.horizontal, 29)
         .overlay(alignment: .top) {
-//            // Status Bar
-//            HStack {
-//                Text("9:41")
-//                    .frame(width: 109)
-//                    .clipped()
-//                    .font(.system(.body, weight: .semibold))
-//                Spacer()
-//                HStack(spacing: 5) {
-//                    Image(systemName: "cellularbars")
-//                        .imageScale(.small)
-//                    Image(systemName: "wifi")
-//                        .imageScale(.small)
-//                    Image(systemName: "battery.100")
-//                        .symbolRenderingMode(.hierarchical)
-//                        .font(.system(.body, weight: .light))
-//                }
-//                .frame(width: 109)
-//                .clipped()
-//                .font(.system(.body, weight: .semibold))
-//            }
-//            .padding(.horizontal)
-//            .padding(.top, 5)
-//            .frame(maxWidth: .infinity)
-//            .clipped()
-//            .frame(height: 53)
-//            .clipped()
         }
     }
 }
